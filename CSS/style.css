@@ -30,8 +30,6 @@ body {
 
 }
 
-
-
 /* ************************************************************************************************** */
 
 header {
@@ -88,6 +86,35 @@ main {
     transform: translate(-50%, -50%);
 }
 
+#slid {
+    display: flex;
+}
+
+.slider-container {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    top: 470px;
+    /* position du slider par le haut */
+    left: 150px;
+    /* position du slider par la gauche */
+    border-radius: 10px;
+}
+
+.slider {
+    display: flex;
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 #sonic {
     background-size: cover;
     position: absolute;
@@ -97,33 +124,7 @@ main {
 
 /* ************************************************************************************************** */
 
-#slid {
-    display:flex;
-}
 
-.slider-container {
-    position: absolute;
-    width: 400px;
-    height: 200px;
-    overflow: hidden;
-    top: 400px; 
-    /* position du slider par le haut */
-    left: 150px;
-    /* position du slider par la gauche */
-    border-radius: 10px;
-}
-.slider {
-    display: flex;
-    transition: transform 0.5s ease;
-}
-.slide {
-    flex: 0 0 100%;    
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
 
 /* ************************************************************************************************** */
 footer {
