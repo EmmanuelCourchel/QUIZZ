@@ -79,13 +79,18 @@ main {
 
 #slid {
     display:flex;
-   
 }
 
 .slider-container {
+    position: absolute;
     width: 400px;
     height: 200px;
     overflow: hidden;
+    top: 400px; 
+    /* position du slider par le haut */
+    left: 150px;
+    /* position du slider par la gauche */
+    border-radius: 10px;
 }
 .slider {
     display: flex;
@@ -94,10 +99,10 @@ main {
 .slide {
     flex: 0 0 100%;
 }
+
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
 }
 
 /* ************************************************************************************************** */

@@ -65,22 +65,72 @@ header {
 
 main {
     width: 100%;
-    height: 75%;
-    background-color: black;
+    height: 750px;
+    background-image: url(../Images/font_formulaire.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(95, 95, 95, 0.5);
+}
+
 /* ************************************************************************************************** */
 
 .inscription {
+    position: absolute;
+    text-align: center;
+    left: 120px;
+    top: 50%;
+    transform: translate(0, -50%);
     width: 486px;
     height: 600px;
     flex-shrink: 0;
     border: 3px solid #ffffff;
     background: #b14747;
+}
+
+h1 {
+    text-align: center;
+    font-family: Miltonian;
+    font-style: normal;
+    color: white;
+}
+
+.formulaire {
+    text-align: center;
+    font-family: Miltonian;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+}
+
+.bouton {
+    border-radius: 5px;
+    background-color: rgb(224, 224, 224);
+}
+
+#inscrire {
+    position: absolute;
+    left: 300px;
+    top: 510px;
+}
+
+#koopa {
+    position: absolute;
+    right: 50px;
+
 }
 
 /* ************************************************************************************************** */

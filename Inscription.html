@@ -23,29 +23,31 @@
 
     <main>
         <div class="inscription">
+            <h1>Formulaire d'inscription</h1><br><br>
             <form action="" method="get">
-                <label for="nom">Votre nom*:</label><br>
-                <input type="text" name="nom" id="nom" placeholder="Nom" required=""><br><br>
-        
-                <label for="prénom">Votre prénom*:</label><br>
-                <input type="text" name="prénom" id="prénom" placeholder="Prénom" required=""><br><br>
-        
-                <label for="pseudo">Votre pseudo*:</label><br>
-                <input type="text" name="pseudo" id="pseudo" placeholder="Pseudo" required=""><br><br>
-        
-                <label for="MdP">Votre mot de passe*:</label><br>
-                <input type="password" name="MdP" id="MdP" placeholder="Mot de passe" required=""><br><br>
-        
-                <label for="email">Adresse e-mail*:</label><br>
-                <input type="text" name="email" id="email" placeholder="Email" required=""><br><br>
-        
-                <label for="CGV">Acceptation des Conditions Générales*</label><br>
-                J'accepte <input type="radio" name="accepte" value="accepte" required="">
-                Je refuse <input type="radio" name="accepte" value="refuse" required=""><br><br>
-        
-                <input type="submit" value="M'inscrire">
+                <label class="formulaire" for="nom">Votre nom:</label><br>
+                <input type="text" name="nom" class="bouton" placeholder="Nom" required=""><br><br>
+                <br>
+                <label class="formulaire" for="prénom">Votre prénom:</label><br>
+                <input type="text" name="prénom" class="bouton" placeholder="Prénom" required=""><br><br>
+                <br>
+                <label class="formulaire" for="pseudo">Votre pseudo:</label><br>
+                <input type="text" name="pseudo" class="bouton" placeholder="Pseudo" required=""><br><br>
+                <br>
+                <label class="formulaire" for="MdP">Votre mot de passe:</label><br>
+                <input type="password" name="MdP" class="bouton" placeholder="Mot de passe" required=""><br><br>
+                <br>
+                <label class="formulaire" for="email">Adresse e-mail:</label><br>
+                <input type="text" name="email" class="bouton" placeholder="Email" required=""><br><br>
+
+                <input type="submit" id="inscrire" value="M'inscrire">
+                <br>
             </form>
         </div>
+        <div>
+            
+        </div>
+        <img id="koopa" src="Images\Koopa formulaire.png" alt="Koopa">
     </main>
 
 
