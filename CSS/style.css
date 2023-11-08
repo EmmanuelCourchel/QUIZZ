@@ -75,9 +75,14 @@ main {
 
 /* ************************************************************************************************** */
 
+#slid {
+    display:flex;
+   
+}
+
 .slider-container {
     width: 400px;
-    height: 400px;
+    height: 200px;
     overflow: hidden;
 }
 .slider {
@@ -94,7 +99,6 @@ img {
 }
 
 /* ************************************************************************************************** */
-
 footer {
     display: flex;
     justify-content: space-around;
@@ -116,7 +120,7 @@ footer {
 
 .element a {
     text-decoration: none;
-    font-family: 'MysteryQuest';
+    font-family: 'NerkoOne';
     color: white;
     font-size: 20px;
 }
