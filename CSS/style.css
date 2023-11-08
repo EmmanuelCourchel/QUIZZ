@@ -92,15 +92,11 @@ main {
 #slid {
     display:flex;
 }
+
 .slider-container {
-<<<<<<< HEAD
     position: absolute;
     width: 400px;
     height: 200px;
-=======
-    width: 200px;
-    height: 400px;
->>>>>>> 002e925d282d2212a227ee37d6800d8fb378259b
     overflow: hidden;
     top: 400px; 
     /* position du slider par le haut */
@@ -118,12 +114,7 @@ main {
 
 img {
     max-width: 100%;
-<<<<<<< HEAD
     height: auto;
-=======
-    height:auto;
-    border-radius: 10px;
->>>>>>> 002e925d282d2212a227ee37d6800d8fb378259b
 }
 
 /* ************************************************************************************************** */
