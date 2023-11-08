@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscription - Nurserie Quiz</title>
-    <link rel="stylesheet" href="CSS\style.css" />
+    <link rel="stylesheet" href="./CSS/inscription.css" />
 </head>
 
 <body>
@@ -22,9 +22,30 @@
     </header>
 
     <main>
-
-        <!-- Votre contenu ici -->
-
+        <div class="inscription">
+            <form action="" method="get">
+                <label for="nom">Votre nom*:</label><br>
+                <input type="text" name="nom" id="nom" placeholder="Nom" required=""><br><br>
+        
+                <label for="prénom">Votre prénom*:</label><br>
+                <input type="text" name="prénom" id="prénom" placeholder="Prénom" required=""><br><br>
+        
+                <label for="pseudo">Votre pseudo*:</label><br>
+                <input type="text" name="pseudo" id="pseudo" placeholder="Pseudo" required=""><br><br>
+        
+                <label for="MdP">Votre mot de passe*:</label><br>
+                <input type="password" name="MdP" id="MdP" placeholder="Mot de passe" required=""><br><br>
+        
+                <label for="email">Adresse e-mail*:</label><br>
+                <input type="text" name="email" id="email" placeholder="Email" required=""><br><br>
+        
+                <label for="CGV">Acceptation des Conditions Générales*</label><br>
+                J'accepte <input type="radio" name="accepte" value="accepte" required="">
+                Je refuse <input type="radio" name="accepte" value="refuse" required=""><br><br>
+        
+                <input type="submit" value="M'inscrire">
+            </form>
+        </div>
     </main>
 
 
