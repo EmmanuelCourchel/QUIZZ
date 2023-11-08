@@ -19,6 +19,11 @@ body {
     box-sizing: border-box;
 }
 
+#QUIZZcentre{
+    background-size: cover;
+    padding-top: 1%;
+}
+
 /* ************************************************************************************************** */
 
 header {
@@ -66,7 +71,7 @@ header {
 main {
     width: 100%;
     height: 75%;
-    background-image: url(../Images/Sport_Fond\ 1.png);
+    background-image: url(../Images/Milieu\ de\ page.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -75,16 +80,27 @@ main {
     transform: translate(-50%, -50%);
 }
 
+#sonic {
+    background-size: cover;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
 /* ************************************************************************************************** */
 
 #slid {
     display:flex;
 }
-
 .slider-container {
+<<<<<<< HEAD
     position: absolute;
     width: 400px;
     height: 200px;
+=======
+    width: 200px;
+    height: 400px;
+>>>>>>> 002e925d282d2212a227ee37d6800d8fb378259b
     overflow: hidden;
     top: 400px; 
     /* position du slider par le haut */
@@ -97,12 +113,17 @@ main {
     transition: transform 0.5s ease;
 }
 .slide {
-    flex: 0 0 100%;
+    flex: 0 0 100%;    
 }
 
 img {
     max-width: 100%;
+<<<<<<< HEAD
     height: auto;
+=======
+    height:auto;
+    border-radius: 10px;
+>>>>>>> 002e925d282d2212a227ee37d6800d8fb378259b
 }
 
 /* ************************************************************************************************** */
@@ -116,6 +137,7 @@ footer {
     right: 0px;
     width: 100%;
     padding-bottom: 20px;
+    color:white
 }
 
 #Liens {
@@ -131,5 +153,6 @@ footer {
     color: white;
     font-size: 20px;
 }
+
 
 /* ************************************************************************************************** */
