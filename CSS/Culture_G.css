@@ -65,9 +65,11 @@ button:hover {
 #Validation {
     background-color: #f701ff;
     color: white;
+    animation: fadeInFromTop-4 2s ease-in-out;
 }
+/* ***********Effets Boutons**************************** */
 
- @keyframes fadeInFromTop {
+ @keyframes fadeInFromTop-1 {
     0% {
         opacity: 0;
         transform: translateY(-100%);
@@ -78,8 +80,49 @@ button:hover {
         transform: translateY(0);
     }
 }
+ @keyframes fadeInFromTop-2 {
+    0% {
+        opacity: 0;
+        transform: translateX(-45%);
+    }
 
-#question {
-    animation: fadeInFromTop 2s ease-in-out;
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+ @keyframes fadeInFromTop-3 {
+    0% {
+        opacity: 0;
+        transform: translateX(45%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+ @keyframes fadeInFromTop-4 {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
+#question {
+    animation: fadeInFromTop-1 2s ease-in-out;
+}
+
+#reponsesG{
+    animation: fadeInFromTop-2 2s ease-in-out;
+    
+}
+#reponsesD{
+    animation: fadeInFromTop-3 2s ease-in-out;
+
+}
