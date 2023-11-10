@@ -1,0 +1,37 @@
+main {
+    width: 100%;
+    height: 75%;
+    background-image: url(../Images/Milieu\ de\ page\ noir.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#TEXTE {
+    font-family: NerkoOne ;
+    font-style:normal;
+    color: rgb(179, 179, 179);
+    margin-left: 100px;
+    margin-right: 50px;
+
+}
+
+#Daisy{
+    margin-left: 50px;
+
+
+}
+
+#conteneur {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    justify-content: space-around;
+    align-items: row;
+    padding-top: 10px;
+
+}
