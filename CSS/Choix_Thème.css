@@ -1,0 +1,52 @@
+main {
+    background-image: url(../Images/quiz_fond_bois.png);
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: NerkoOne;
+    font-size: 80px;
+    -webkit-text-stroke: 1px #000;
+}
+
+#choix {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#music {
+    transform: rotate(-3deg);
+    width: 250px;
+    border-radius: 20px;
+    position: absolute;
+    top: 300px;
+    right: 272px;
+}
+
+#video {
+    transform: rotate(9deg);
+    width: 265px;
+    position: absolute;
+    top: 290px;
+    right: 630px;
+}
+
+#sport {
+    width: 240px;
+    height: 246px;
+    position: absolute;
+    top: 300px;
+    left: 655px;
+}
+
+#culture {
+    transform: rotate(0.5deg);
+    width: 240px;
+    height: 246px;
+    position: absolute;
+    top: 300px;
+    left: 261px;
+
+}
