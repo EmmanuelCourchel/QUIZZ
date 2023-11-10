@@ -42,62 +42,6 @@
 
 /* NE PAS TOUCHER AU SLIDE */
 
-/* #slid {
-    display: flex;
-}
-
-.slider-container {
-    position: absolute;
-    width: 400px;
-    height: 200px;
-    overflow: hidden;
-    top: 470px;
-    left: 150px;
-    border-radius: 10px;
-}
-
-.slider {
-    display: flex;
-}
-
-.slide {
-    flex: 0 0 100%;
-}
-
-.slide.musique img {
-    transform: rotate(-3deg);
-    width: 250px;
-    border-radius: 20px;
-    position: absolute;
-    top: 300px;
-    right: 272px;
-}
-
-.slide.jeux img {
-    transform: rotate(9deg);
-    width: 265px;
-    position: absolute;
-    top: 290px;
-    right: 630px;
-}
-
-.slide.sport img {
-    width: 240px;
-    height: 246px;
-    position: absolute;
-    top: 300px;
-    left: 655px;
-}
-
-.slide.culture img {
-    transform: rotate(0.5deg);
-    width: 240px;
-    height: 246px;
-    position: absolute;
-    top: 300px;
-    left: 261px;
-
-} */
 
 #slid {
     display: flex;
