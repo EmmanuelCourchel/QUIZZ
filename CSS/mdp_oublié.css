@@ -54,7 +54,7 @@ header {
     font-family: 'MysteryQuest';
     font-size: 20px;
     text-decoration: none;
-    margin-right: 7px;
+    margin-right: 100px;
 }
 
 #logo_deco {
@@ -65,7 +65,7 @@ header {
 
 main {
     width: 100%;
-    height: 75%;
+    height: 78%;
     background-color: rgb(66, 66, 116);
     background-position: center;
     background-size: cover;
