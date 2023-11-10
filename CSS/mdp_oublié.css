@@ -65,77 +65,32 @@ header {
 
 main {
     width: 100%;
-    height: 750px;
-    background-image: url(../Images/fond_formulaire.jpg);
-    background-size: cover;
+    height: 75%;
+    background-color: rgb(66, 66, 116);
     background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-main::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(95, 95, 95, 0.5);
-}
-
 /* ************************************************************************************************** */
 
-.inscription {
+.form_mdp_oublié {
     position: absolute;
     text-align: center;
     border-radius: 20px;
     left: 700px;
     top: 50%;
     transform: translate(0, -50%);
-    width: 486px;
-    height: 600px;
+    width: 400px;
+    height: auto;
+    padding: 50px;
     flex-shrink: 0;
     border: 3px solid #ffffff;
-    background: #830000;
-}
-
-.connexion {
-    position: absolute;
-    text-align: center;
-    border-radius: 20px;
-    left: 120px;
-    top: 50%;
-    transform: translate(0, -50%);
-    width: 486px;
-    height: 600px;
-    flex-shrink: 0;
-    border: 3px solid #ffffff;
-    background: #830000;
-}
-
-.form-inscription {
-    text-align: center;
+    background: #830000; 
     font-family: NerkoOne;
-    font-style: normal;
-    color: white;
-}
-
-.form-connexion {
-    text-align: center;
-    font-family: NerkoOne;
-    padding-top: 25%;
-    font-style: normal;
-    color: white;
-}
-
-.formulaire {
-    text-align: center;
-    font-family: NerkoOne;
-    font-style: normal;
-    font-size: 18px;
     color: white;
 }
 
@@ -144,40 +99,15 @@ main::before {
     background-color: rgb(224, 224, 224);
 }
 
-#inscrire {
-    position: absolute;
-    border: solid 2px;
-    border-radius: 5px;
-    padding: 5px 5px 5px 5px;
-    left: 210px;
-}
-
-#connexion {
-    position: absolute;
+#envoyer_mdp {
     border: solid 2px;
     border-radius: 5px;
     padding: 5px 5px 5px 5px;
     left: 205px;
 }
 
-#mdp_oublie {
-    color: white;    
-    text-decoration: none;
-    font-family: NerkoOne;
-}
-
-#mdp_oublie:hover {
-    text-decoration: underline;
-    color: black;
-}
-
-#koopa {
-    position: absolute;
-    right: 50px;
-}
 
 /* ************************************************************************************************** */
-
 footer {
     display: flex;
     justify-content: space-around;
@@ -188,6 +118,7 @@ footer {
     right: 0px;
     width: 100%;
     padding-bottom: 20px;
+    color: white
 }
 
 #Liens {
@@ -199,7 +130,7 @@ footer {
 
 .element a {
     text-decoration: none;
-    font-family: 'MysteryQuest';
+    font-family: 'NerkoOne';
     color: white;
     font-size: 20px;
 }

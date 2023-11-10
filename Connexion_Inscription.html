@@ -23,7 +23,7 @@
 
     <main>
         <div class="inscription">
-            <h1>Formulaire d'inscription</h1><br><br>
+            <h1 class="form-inscription">Formulaire d'inscription</h1>
             <form action="" method="get">
                 <label class="formulaire" for="nom">Votre nom:</label><br>
                 <input type="text" name="nom" class="bouton" placeholder="Nom" required=""><br><br>
@@ -31,22 +31,36 @@
                 <label class="formulaire" for="prénom">Votre prénom:</label><br>
                 <input type="text" name="prénom" class="bouton" placeholder="Prénom" required=""><br><br>
                 <br>
+                <label class="formulaire" for="email">Adresse e-mail:</label><br>
+                <input type="text" name="email" class="bouton" placeholder="Email" required=""><br><br>
+                <br>
                 <label class="formulaire" for="pseudo">Votre pseudo:</label><br>
                 <input type="text" name="pseudo" class="bouton" placeholder="Pseudo" required=""><br><br>
                 <br>
                 <label class="formulaire" for="MdP">Votre mot de passe:</label><br>
                 <input type="password" name="MdP" class="bouton" placeholder="Mot de passe" required=""><br><br>
                 <br>
-                <label class="formulaire" for="email">Adresse e-mail:</label><br>
-                <input type="text" name="email" class="bouton" placeholder="Email" required=""><br><br>
 
                 <input type="submit" id="inscrire" value="M'inscrire">
                 <br>
             </form>
         </div>
-        <div>
-            
+
+        <div class="connexion">
+            <h1 class="form-connexion">Connexion</h1>
+            <form action="" method="get">
+                <label class="formulaire" for="pseudo">Votre pseudo:</label><br>
+                <input type="text" name="pseudo" class="bouton" placeholder="Pseudo" required=""><br><br>
+                <br>
+                <label class="formulaire" for="MdP">Votre mot de passe:</label><br>
+                <input type="password" name="MdP" class="bouton" placeholder="Mot de passe" required=""><br><br>
+                <input type="submit" id="connexion" value="Connexion"><br><br>
+                <br>
+                <a href="Mot de passe.html" id="mdp_oublie">Mot de passe oublié ?</a>
+                <br>
+            </form>
         </div>
+
         <img id="koopa" src="Images\Koopa formulaire.png" alt="Koopa">
     </main>
 
