@@ -19,17 +19,6 @@ body {
     box-sizing: border-box;
 }
 
-#QUIZZcentre{
-    background-size: cover;
-    padding-top: 1%;
-}
-
-#text-centrale{
-    color: white;
-    text-align: center;
-
-}
-
 /* ************************************************************************************************** */
 
 header {
@@ -86,41 +75,6 @@ main {
     transform: translate(-50%, -50%);
 }
 
-#slid {
-    display: flex;
-}
-
-.slider-container {
-    position: absolute;
-    width: 400px;
-    height: 200px;
-    overflow: hidden;
-    top: 470px;
-    /* position du slider par le haut */
-    left: 150px;
-    /* position du slider par la gauche */
-    border-radius: 10px;
-}
-
-.slider {
-    display: flex;
-}
-
-.slide {
-    flex: 0 0 100%;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-#sonic {
-    background-size: cover;
-    position: absolute;
-    top: 40%;
-    left: 40%;
-}
 
 /* ************************************************************************************************** */
 
@@ -154,5 +108,5 @@ footer {
     font-size: 20px;
 }
 
-
 /* ************************************************************************************************** */
+

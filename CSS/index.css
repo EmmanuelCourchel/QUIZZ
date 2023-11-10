@@ -1,0 +1,20 @@
+#conteneur {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+#TEXTE{
+    font-family: MysteryQuest;
+    font-size: 30px;
+}
+
+#JOUER{
+    /* display:
+    margin: */
+    background-size: 10px;
+    
+}
