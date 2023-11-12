@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <!-- Liens hypertextes à définir -->
+        
         <div>
             <a href="index.html"><img src="./Images/RetourAccueil_Logo.png" id="Bouton_Home" alt="Bouton Home"></a>
         </div>
@@ -26,26 +26,26 @@
 
     <main class="pt-3">
         <h1 class="mt-1 ms-3 text-center">Culture générale</h1>
-        <div class="container pt-5 pb-5">
+        <div id="principal" class="container pt-5 pb-5">
             <div class="row">
-                <div class="col-12 text-center">
-                    <h4 id="numeroQ">Question <span id="compteur">1</span>/5</h4>
+                <div id="haut" class="col-12 text-center">
+                    <h4>Question <span id="compteur">1</span>/3</h4>
                     <p id="question"></p>
                 </div>
             </div>
             <form id="formulaire">
                 <div class="d-flex justify-content-around">
                     <div id="reponsesG" class="text-center mt-3">
-                        <div><input value="reponseA" name="Rep" type="radio" id="reponseA"></input><label id="labelA"
-                                for="reponseA"></label></div>
+                        <div><input value="reponseA" name="Rep" type="radio" id="reponseA"></input><label class="pt-3"
+                                id="labelA" for="reponseA"></label></div>
                         <div class="mt-3"><input value="reponseB" name="Rep" type="radio" id="reponseB"></input><label
-                                id="labelB" for="reponseB"></label></div>
+                                class="pt-3" id="labelB" for="reponseB"></label></div>
                     </div>
                     <div id="reponsesD" class="text-center mt-3">
-                        <div><input value="reponseC" name="Rep" type="radio" id="reponseC"></input><label id="labelC"
-                                for="reponseC"></label></div>
+                        <div><input value="reponseC" name="Rep" type="radio" id="reponseC"></input><label class="pt-3"
+                                id="labelC" for="reponseC"></label></div>
                         <div class="mt-3"><input value="reponseD" name="Rep" type="radio" id="reponseD"></input><label
-                                id="labelD" for="reponseD"></label></div>
+                                class="pt-3" id="labelD" for="reponseD"></label></div>
                     </div>
                 </div>
                 <div class="row">
@@ -55,6 +55,19 @@
                 </div>
             </form>
         </div>
+        <article id="score">
+            <div class="d-flex justify-content-around mt-5 container">
+                <div>
+                    <p id="final1" class="pt-5">Score <br> <span id="monscore"></span>/3</p>
+                </div>
+                <div>
+                    <p id="final2" class="pt-4">Réponses <br> <br> 1. Blanc <br> 2. Peter <br> 3. Le gland</p>
+                </div>
+            </div>
+            <div class="d-flex mt-3 justify-content-center">
+                <button id="Validation"><a href="Choix Thème.html" id="retour">RETOUR</a></button>
+            </div>
+        </article>
     </main>
 
 

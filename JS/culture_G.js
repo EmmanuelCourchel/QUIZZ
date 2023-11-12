@@ -76,6 +76,10 @@ formulaire.addEventListener("submit", function (e) {
     score = score + 1;
   }
   if (c > 2) {
+    document.getElementById("principal").classList.add("invisible");
+    document.getElementById("score").classList.add("visible");
+    document.getElementById("monscore").textContent = score;
+
   } else {
     document.getElementById("question").textContent = infos[c].question;
     document.getElementById("labelA").textContent = infos[c].reponseA;
@@ -86,3 +90,5 @@ formulaire.addEventListener("submit", function (e) {
     compteur.textContent = c;
   }
 });
+
+console.log(c);
