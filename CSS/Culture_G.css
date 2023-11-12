@@ -1,7 +1,7 @@
 /* ***************************************************************** */
 main {
   background-image: url(../Images/Culture_G_Fond.jpg);
-    background-size: cover;
+  background-size: cover;
 }
 
 /* ***************************************************************** */
@@ -131,16 +131,44 @@ button {
   }
 }
 
-#question {
+#haut {
   animation: fadeInFromTop-1 2s ease-in-out;
 }
-#numeroQ {
-    animation: fadeInFromTop-1 2s ease-in-out;
-}
 
-#reponsesG {
+#reponsesG, #final1 {
   animation: fadeInFromTop-2 2s ease-in-out;
 }
-#reponsesD {
+#reponsesD, #final2 {
   animation: fadeInFromTop-3 2s ease-in-out;
+}
+
+/* *******Afichage du score et bonnes reponses */
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+article {
+  display: none;
+}
+#final1 {
+  width: 550px;
+  height: 400px;
+  color: rgb(255, 255, 0);
+  font-size: 80px;
+}
+#final2 {
+  width: 550px;
+  height: 400px;
+}
+#retour {
+  text-decoration: none;
+  background-color: #f701ff;
+  color: white;
+  font-size: 30px;
+  font-family: "NerkoOne";
 }
