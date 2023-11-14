@@ -1,7 +1,7 @@
 main {
     width: 100%;
     height: 75%;
-    background-image: url(../Images/Milieu\ de\ page\ noir.png);
+    background-image: url(../Images/fond-decran-noir21.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -13,16 +13,15 @@ main {
 #TEXTE {
     font-family: NerkoOne ;
     font-style:normal;
-    color: rgb(179, 179, 179);
-    margin-left: 100px;
+    color: rgb(255, 255, 255);
+    margin-left: 300px;
     margin-right: 50px;
 
 }
 
-#Daisy{
-    margin-left: 50px;
-
-
+#JIMM{
+    margin-top: -4%;
+    
 }
 
 #conteneur {
@@ -32,6 +31,6 @@ main {
     justify-content: stretch;
     justify-content: space-around;
     align-items: row;
-    padding-top: 10px;
+    padding-top: 5%;
 
 }
