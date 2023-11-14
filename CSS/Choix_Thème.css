@@ -17,20 +17,18 @@ h1 {
 }
 
 #music {
-    transform: rotate(-3deg);
-    width: 250px;
+    width: 280px;
     border-radius: 20px;
     position: absolute;
-    top: 300px;
-    right: 272px;
+    top: 283px;
+    right: 255px;
 }
 
 #video {
-    transform: rotate(9deg);
-    width: 265px;
+    width: 320px;
     position: absolute;
-    top: 290px;
-    right: 630px;
+    top: 260px;
+    right: 605px;
 }
 
 #sport {
@@ -52,14 +50,65 @@ h1 {
 }
 /* ******effets test *************/
 
-h2 {
-display: none;
+.container {
+    position: relative;
 }
 
-.invisible{
-    display: none;
+#textecaché1 {
+    position: absolute; 
+    padding-left: 285px;
+    margin-top: 5px;
+    font-family: NerkoOne;
+    font-size: 30px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 }
 
-.visible{
-    display: block;
+#textecaché2 {
+    position: absolute;
+    padding-left: 745px;
+    margin-top: 5px;
+    font-family: NerkoOne;
+    font-size: 30px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#textecaché3 {
+    position: absolute;
+    padding-left: 1090px;
+    margin-top: 5px;
+    font-family: NerkoOne;
+    font-size: 30px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#textecaché4 {
+    position: absolute;
+    padding-left: 1470px;
+    margin-top: 5px;
+    font-family: NerkoOne;
+    font-size: 30px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+img:hover {
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
 }

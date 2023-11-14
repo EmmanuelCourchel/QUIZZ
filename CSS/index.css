@@ -68,27 +68,21 @@
 /* Styles spécifiques pour chaque classe d'image */
 
 .slide.culture img {
-    transform: rotate(0.5deg);
     width: 400px;
     height: 200px;
 }
 
 .slide.jeux img {
-    transform: rotate(6deg);
     width: 400px;
     height: 200px;
 }
 
 .slide.musique img {
-    transform: rotate(-3deg);
     width: 400px;
     height: 200px;
-    border-radius: 20px;
-
 }
 
 .slide.sport img {
     width: 400px;
     height: 200px;
-
 }
