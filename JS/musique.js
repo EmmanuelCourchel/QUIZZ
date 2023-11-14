@@ -26,28 +26,28 @@ function checkIsGoodAnwser(goodAnswer) {
 // *******Liste des questions*********
 const infos = [
   {
-    question: "Que perdez-vous si vous êtes « aphone » ?",
-    reponseA: "Votre téléphone",
-    reponseB: "Votre équilibre",
-    reponseC: "Votre voix",
-    reponseD: "Votre odorat",
-    bonnereponse: "reponseC",
+    question:"Quel est le nom du groupe qui a chanté pour le film Le transporteur ?",
+    reponseA: "Knoc Turn'al",
+    reponseB: "Imagine Dragon",
+    reponseC: "Linkin Park",
+    reponseD: "Foo fighters",
+    bonnereponse: "reponseA",
   },
   {
-    question: "Comment appelle-t-on les habitants de Madagascar ? ",
-    reponseA: "Les madoux",
-    reponseB: "Les malgaches",
-    reponseC: "Les madagascons",
-    reponseD: "Les madascaris",
-    bonnereponse: "reponseB",
-  },
-  {
-    question: "Combien de jours compte une année bissextile ?",
-    reponseA: "365 Jours",
-    reponseB: "364 Jours",
-    reponseC: "367 Jours ",
-    reponseD: "366 Jours",
+    question: "Quel est le titre chanté par le groupe Nu'Est ? ",
+    reponseA: "Nose",
+    reponseB: "Eyes",
+    reponseC: "Hair",
+    reponseD: "Face",
     bonnereponse: "reponseD",
+  },
+  {
+    question: "Ce groupe The Calling est originaire de où ?",
+    reponseA: "Seattle",
+    reponseB: "New Jersey",
+    reponseC: " Los Angeles",
+    reponseD: "Manhatthan",
+    bonnereponse: "reponseC",
   },
 ];
 
@@ -79,7 +79,6 @@ formulaire.addEventListener("submit", function (e) {
     document.getElementById("principal").classList.add("invisible");
     document.getElementById("score").classList.add("visible");
     document.getElementById("monscore").textContent = score;
-
   } else {
     document.getElementById("question").textContent = infos[c].question;
     document.getElementById("labelA").textContent = infos[c].reponseA;
