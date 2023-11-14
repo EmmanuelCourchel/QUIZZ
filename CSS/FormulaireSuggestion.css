@@ -1,0 +1,50 @@
+main {
+    width: 100%;
+    height: 75%;
+    background-image: url(../Images/RectangleFondBeige.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#suggestion{
+    width: 20%;
+    height: 80%;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 10%;
+    left: 75%;
+}
+
+#SUJET{
+    padding-right: 50%; 
+    margin-top: 25%;
+    margin-left: 5%;
+    background-color: rgb(252, 80, 80);
+    text-align: left;
+    text-align:justify;
+
+}
+
+#OK{
+    background-position: 2%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(252, 80, 80);
+    font-family: NerkoOne;
+   
+}
+
+#TEXTE{
+    font-family: NerkoOne; 
+    color:black;
+    position: absolute;
+    background-size:auto;
+    left: 15%;
+    top: 20%;
+}
+
