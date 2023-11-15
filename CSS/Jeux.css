@@ -166,9 +166,17 @@ article {
   height: 400px;
 }
 #retour {
+  border-radius: 30px;
   text-decoration: none;
+  border: 5px solid #40009c;
   background-color: #f701ff;
-  color: white;
+  box-shadow: 0px 4px 4px 0px #000;
+  width: 510px;
+  height: 93px;
+  flex-shrink: 0;
   font-size: 30px;
   font-family: "NerkoOne";
+  color: white;
+  text-align: center;
+  animation: fadeInFromTop-4 2s ease-in-out;
 }
