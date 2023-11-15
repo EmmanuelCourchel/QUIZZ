@@ -25,7 +25,6 @@ header {
     display: flex;
     align-items: center;
     width: 100%;
-    padding-top: 5px;
 }
 
 .menu {
@@ -37,8 +36,8 @@ header {
 }
 
 #Bouton_Home {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
 }
 
 #Connexion {
