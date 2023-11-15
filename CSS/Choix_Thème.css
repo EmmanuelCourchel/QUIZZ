@@ -20,22 +20,22 @@ h1 {
     width: 280px;
     border-radius: 20px;
     position: absolute;
-    top: 35%;
-    right: 13%;
+    top: 37.5%;
+    right: 13.25%;
 }
 
 #video {
     width: 320px;
     position: absolute;
-    top: 32%;
-    right: 31%;
+    top: 35%;
+    right: 31.5%;
 }
 
 #sport {
     width: 240px;
     height: 246px;
     position: absolute;
-    top: 37%;
+    top: 40%;
     left: 34%;
 }
 
@@ -44,8 +44,8 @@ h1 {
     width: 240px;
     height: 246px;
     position: absolute;
-    top: 37%;
-    left: 13%;
+    top: 40%;
+    left: 13.75%;
 
 }
 /* ******effets test *************/
@@ -95,7 +95,10 @@ h1 {
 }
 
 
-img:hover {
+[id="culture"]:hover,
+[id="sport"]:hover,
+[id="video"]:hover,
+[id="music"]:hover {
     animation: zoom-in-zoom-out 1s ease infinite;
 }
 
