@@ -7,14 +7,12 @@ tr, th, td{
     font-size: 40px;
     text-align: center;    
 }
-
-table{
-    width: 60%;
+#tableau {
+    width: 70%;
     height: auto;
-    border-radius: 30px;           
-    background-color: rgb(120, 120, 126);
-    color: white;
     -webkit-text-stroke: 1px black ;
+    font-weight: bold;
+
 }
 
 
