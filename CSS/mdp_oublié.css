@@ -137,3 +137,21 @@ footer {
 }
 
 /* ************************************************************************************************** */
+
+p{
+    display:none;    
+    }
+
+.visible{
+    display: block;
+}
+
+#confirmation{
+    font-size: 30px;
+    -webkit-text-stroke: 1px black;
+    background-color: green;
+    border: solid 2px;
+        border-radius: 5px;
+        padding: 5px 5px 5px 5px;
+        left: 205px;
+}

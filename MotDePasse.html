@@ -2,8 +2,8 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MdP oublié - Nurserie Quiz</title>
     <link rel="stylesheet" href="./CSS/mdp_oublié.css" />
 </head>
@@ -12,43 +12,44 @@
     <header>
         <!-- Liens hypertextes à définir -->
         <div>
-            <a href="index.html"><img src="Images/Quizzlogo.gif" alt="gif.src" id="Bouton_Home"></a>
+            <a href="index.html"><img src="Images/Quizzlogo.gif" alt="gif.src" id="Bouton_Home" /></a>
         </div>
         <div class="menu">
             <a href="Classement Général.html" id="Classement">Classement général</a>
             <a href="Connexion_Inscription.html" id="Connexion">Connexion / Inscription</a>
-            <img src="./Images/Profil.png" id="logo_deco" alt="logo_deco">
+            <img src="./Images/Profil.png" id="logo_deco" alt="logo_deco" />
         </div>
     </header>
 
     <main>
-
         <div class="form_mdp_oublié">
             <h1>Mot de passe oublié</h1>
-            <form action="" method="get">
-                <label class="formulaire" for="mail">Votre adresse e-mail :</label><br><br>
-                <input type="text" name="mail" class="bouton" placeholder="mail" required=""><br><br>
+            <form id="formulaire" action="" method="get">
+                <label class="formulaire" for="mail">Votre adresse e-mail :</label><br /><br />
+                <input type="text" name="mail" class="bouton" placeholder="mail" required="" /><br /><br />
+                <input type="submit" id="envoyer_mdp" value="Envoyer" />
+                <br>
+                <p id="confirmation">E-mail envoyé !</p>
             </form>
-            <input type="submit" id="envoyer_mdp" value="Envoyer">
         </div>
-
     </main>
-
 
     <footer>
         <div class="element"><a href="Apropos.html">A propos</a></div>
         <div class="element"><a href="Mentions.html">Mentions Légales</a></div>
-        <div class="element"><a href="Formulaire Suggestions.html">Suggestions</a></div>
+        <div class="element">
+            <a href="Formulaire Suggestions.html">Suggestions</a>
+        </div>
         <div class="logos">
             <a href="https://www.facebook.com/" target="_blank"><img src="./Images/Facebook.png" alt="logo_FB"
-                    width="30px"></a>
+                    width="30px" /></a>
             <a href="https://twitter.com/" target="_blank"><img src="./Images/Twitter.png" alt="logo_Twitter"
-                    width="30px"></a>
+                    width="30px" /></a>
             <a href="https://www.instagram.com/" target="_blank"><img src="./Images/Instagram.png" alt="logo_Insta"
-                    width="30px"></a>
+                    width="30px" /></a>
         </div>
     </footer>
-
+    <script src="JS/MDP.js"></script>
 </body>
 
 </html>
