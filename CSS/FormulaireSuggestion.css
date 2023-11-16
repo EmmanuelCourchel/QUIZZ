@@ -47,4 +47,20 @@ main {
     left: 15%;
     top: 20%;
 }
+p{
+    display: none;
+    text-align: center;
+    font-size: 20px;
+        -webkit-text-stroke: 1px black;
+        background-color: green;
+        border: solid 2px;
+        border-radius: 5px;
+        padding: 5px 5px 5px 5px;
+        margin-left: 30%;
+        margin-right: 30%;
+        
+}
 
+.visible{
+    display: block;
+}
