@@ -90,3 +90,17 @@ formulaire.addEventListener("submit", function (e) {
     compteur.textContent = c;
   }
 });
+
+const audio = document.getElementById("myAudio");
+const stopButton = document.getElementById("stopButton");
+const playButton = document.getElementById("playButton");
+
+stopButton.addEventListener("click", function() {
+  audio.pause();
+  playButton.disabled = false;
+});
+
+playButton.addEventListener("click", function() {
+  audio.play();
+  playButton.disabled = true;
+});
