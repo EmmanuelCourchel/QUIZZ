@@ -40,6 +40,10 @@
     background-size: 10px;
     padding-left: 320px;
 }
+#jouer:hover{
+    transform: scale(1.2);
+    
+}
 
 #emoji {
     padding-left: 550px;

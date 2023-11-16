@@ -47,17 +47,18 @@
 
         <div class="connexion">
             <h1 class="form-connexion">Connexion</h1>
-            <form action="" method="get">
+            <form id="loginForm" action="" method="get">
                 <label class="formulaire" for="pseudo">Votre pseudo:</label><br>
-                <input type="text" name="pseudo" class="bouton" placeholder="Pseudo" required=""><br><br>
+                <input id="username" type="text" name="pseudo" class="bouton" placeholder="Pseudo" required=""><br><br>
                 <br>
                 <label class="formulaire" for="MdP">Votre mot de passe:</label><br>
-                <input type="password" name="MdP" class="bouton" placeholder="Mot de passe" required=""><br><br>
+                <input id="password" type="password" name="MdP" class="bouton" placeholder="Mot de passe" required=""><br><br>
                 <input type="submit" id="connexion" value="Connexion"><br><br>
                 <br>
                 <a href="MotDePasse.html" id="mdp_oublie">Mot de passe oublié ?</a>
                 <br>
             </form>
+            <p id="loginResult"></p>
         </div>
 
         <img id="koopa" src="./Images/ConnexionInscription_Koopa.png" alt="Koopa">
@@ -77,6 +78,7 @@
                     width="30px"></a>
         </div>
     </footer>
+    <script src="JS/Connexion.js"></script>
 
 </body>
 
