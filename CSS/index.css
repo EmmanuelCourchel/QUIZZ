@@ -1,24 +1,3 @@
-/* VIDEO RICK ROLL*/
-
-#video-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: 9999;
-}
-
-#myVideo {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* */
-
-
 #conteneur {
     display: flex;
     flex-direction: row;
@@ -111,3 +90,21 @@
     width: 400px;
     height: 200px;
 }
+
+/* VIDEO RICK ROLL*/
+
+/* #video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 9999;
+}
+
+#myVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */

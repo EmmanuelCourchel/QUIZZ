@@ -21,29 +21,30 @@
         </div>
     </header>
     <main>
-        <div class="inscription">
-            <h1 class="form-inscription">Formulaire d'inscription</h1>
-            <form action="" method="get">
-                <label class="formulaire" for="nom">Votre nom:</label><br>
-                <input type="text" name="nom" class="bouton" placeholder="Nom" required=""><br><br>
-                <br>
-                <label class="formulaire" for="prénom">Votre prénom:</label><br>
-                <input type="text" name="prénom" class="bouton" placeholder="Prénom" required=""><br><br>
-                <br>
-                <label class="formulaire" for="email">Adresse e-mail:</label><br>
-                <input type="text" name="email" class="bouton" placeholder="Email" required=""><br><br>
-                <br>
-                <label class="formulaire" for="pseudo">Votre pseudo:</label><br>
-                <input type="text" name="pseudo" class="bouton" placeholder="Pseudo" required=""><br><br>
-                <br>
-                <label class="formulaire" for="MdP">Votre mot de passe:</label><br>
-                <input type="password" name="MdP" class="bouton" placeholder="Mot de passe" required=""><br><br>
-                <br>
+<div class="inscription">
+    <h1 class="form-inscription">Formulaire d'inscription</h1>
+    <form id="inscriptionForm" action="" method="get">
+        <label class="formulaire" for="nom">Votre nom:</label><br>
+        <input type="text" id="nom" name="nom" class="bouton" placeholder="Nom" required=""><br><br>
 
-                <input type="submit" id="inscrire" value="M'inscrire">
-                <br>
-            </form>
-        </div>
+        <label class="formulaire" for="prenom">Votre prénom:</label><br>
+        <input type="text" id="prenom" name="prenom" class="bouton" placeholder="Prénom" required=""><br><br>
+
+        <label class="formulaire" for="email">Adresse e-mail:</label><br>
+        <input type="text" id="email" name="email" class="bouton" placeholder="Email" required=""><br><br>
+
+        <label class="formulaire" for="pseudo">Votre pseudo:</label><br>
+        <input type="text" id="pseudo" name="pseudo" class="bouton" placeholder="Pseudo" required=""><br><br>
+
+        <label class="formulaire" for="mdp">Votre mot de passe:</label><br>
+        <input type="password" id="mdp" name="mdp" class="bouton" placeholder="Mot de passe" required=""><br><br>
+
+        <input type="submit" id="inscrire" value="M'inscrire">
+        <br>
+    </form>
+    <p id="inscriptionResult"></p>
+</div>
+
 
         <div class="connexion">
             <h1 class="form-connexion">Connexion</h1>
@@ -78,8 +79,9 @@
                     width="30px"></a>
         </div>
     </footer>
-    <script src="JS/Connexion.js"></script>
 
+    <script src="JS/Connexion.js"></script>
+    <script src="./JS/Inscription.js"></script>
 </body>
 
 </html>
