@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'MysteryQuest';
+    src: url(../Font/MysteryQuest.ttf);
+}
+
+@font-face {
+    font-family: 'NerkoOne';
+    src: url(../Font/NerkoOne.ttf);
+}
+
+body {
+    font-family: 'MysteryQuest';
+    background-image: url(../Images/fond.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* ************************************************************************************************** */
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 5px;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 60px;
+}
+
+#Bouton_Home {
+    width: 100px;
+    height: 100px;
+}
+
+#Connexion {
+    color: rgb(255, 255, 255);
+    font-family: 'MysteryQuest';
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#Classement {
+    color: rgb(255, 255, 255);
+    font-family: 'MysteryQuest';
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 100px;
+}
+
+#logo_deco {
+    width: 30px;
+}
+
+/* ************************************************************************************************** */
+
+main {
+    width: 100%;
+    height: 75%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ************************************************************************************************** */
+
+.quiz-container {
+    width: 35%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.question {
+    font-family: NerkoOne;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+.timer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+}
+
+.answers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.answer-btn {
+    font-family: NerkoOne;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    margin: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.answer-btn:hover {
+    background-color: #2077c8;
+}
+
+.answer-btn.selected {
+    background-color: #3cba1c;
+}
+
+.answer-btn.selected:hover {
+    background-color: #3cba1c;
+    color: #fff;
+}
+
+/* ************************************************************************************************** */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+#Liens {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.element a {
+    text-decoration: none;
+    font-family: 'MysteryQuest';
+    color: white;
+    font-size: 20px;
+}
