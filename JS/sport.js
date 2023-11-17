@@ -91,16 +91,16 @@ formulaire.addEventListener("submit", function (e) {
   }
 });
 
-const audio = document.getElementById("myAudio");
-const stopButton = document.getElementById("stopButton");
-const playButton = document.getElementById("playButton");
+// const audio = document.getElementById("myAudio");
+// const stopButton = document.getElementById("stopButton");
+// const playButton = document.getElementById("playButton");
 
-stopButton.addEventListener("click", function() {
-  audio.pause();
-  playButton.disabled = false;
-});
+// stopButton.addEventListener("click", function() {
+//   audio.pause();
+//   playButton.disabled = false;
+// });
 
-playButton.addEventListener("click", function() {
-  audio.play();
-  playButton.disabled = true;
-});
+// playButton.addEventListener("click", function() {
+//   audio.play();
+//   playButton.disabled = true;
+// });
